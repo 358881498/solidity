@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "romanToUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "uintToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task3/convertIntegersToRoman.sol": "convertIntegersToRoman"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task3/convertIntegersToRoman.sol": {
+			"keccak256": "0x9baf29167cbd292fcb8e25f1e88d97009c06a6bcb30f7e0ddf001c9412c03e99",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2d8e121c3b482028b51fa923ee60d51d961b1c061028a1cc3305e014346e86d4",
+				"dweb:/ipfs/QmZG5UTz6AHrQjj5zQN4s2c71JRkLCffMrCoDP9Tk8Ee1j"
+			]
+		}
+	},
+	"version": 1
+}

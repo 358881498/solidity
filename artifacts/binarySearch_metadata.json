@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "a",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "arraySearch",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "sortedArray",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "search",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task6/binarySearch.sol": "binarySearch"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task6/binarySearch.sol": {
+			"keccak256": "0xe5c92a4dc2391f877ac892b5a061b5fcb09a94ed873b92136f08c23a3e9fce90",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5aeaa8e508c74730fd614d79015e207c8ad7de75d3961a97ff6fdd45729b39bd",
+				"dweb:/ipfs/QmTZ291PCMf8Fsx2CgANFcR3jF6LPteboTKSiEQVbiYTQR"
+			]
+		}
+	},
+	"version": 1
+}
